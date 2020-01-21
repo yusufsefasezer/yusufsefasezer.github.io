@@ -1,6 +1,16 @@
-.DS_Store
-_site
-.sass-cache
-Gemfile.lock
+# Local Site Directories
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby Gem
+*.gem
 .bundle
-vendor/
+Gemfile.lock
+
+# Photoshop Documents
+*.psd
+
+# Log Files
+*.log

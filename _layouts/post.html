@@ -2,48 +2,30 @@
 layout: page
 ---
 
-{% if page.image and page.headerImage %}
-    <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
-{% endif %}
+<h1><b>{{ page.title }}</b></h1>
 
-<h1 class="title">{{ page.title }}</h1>
+<p class="post-metadata text-muted">
+  {{ page.date | date_to_long_string }} -  
+  <b>
+  {%- assign words = content | number_of_words -%}
+  {%- if words < 360 -%}
+    less than 1 min read time
+  {%- else -%}
+    {{ words | divided_by: 180 }} mins read time
+  {%- endif -%}
+  </b>
 
-<span class="date">
-    <time datetime="{{ page.date | date:"%d-%m-%Y" }}">{{ page.date | date: "%A. %B %d, %Y" }}</time>
-    {% if site.read-time %} - {% include read-time.html %}{% endif %}
-</span>
+  <br>
 
-{% if site.show-tags %}
-    <div class="post-tags">
-        {% for tag in page.tags %}
-            <a class="item" href="{{ site.url }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
-        {% endfor %}
-    </div>
-{% endif %}
+  {%- if page.tags != empty -%}
+    Tags: 
+    {% for tag in page.tags %}
+    <a class="text-decoration-none no-underline" href="{{ tag | slugify | prepend:'/blog/tags#' | relative_url }}">
+      <span class="tag badge badge-pill text-primary border border-primary">{{ tag }}</span>
+    </a>
+    {% endfor %}
+  {%- endif -%}
 
-{{content}}
+</p>
 
-{% if site.post-advance-links contains page.category %}
-    <div class="blog-navigation">
-        {% if page.previous.hidden == false and page.previous.url %}
-            <a class="prev" href="{{ site.url }}{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
-        {% else %}
-            <a class="prev"></a>
-        {% endif %}
-        {% if page.next.hidden == false and page.next.url %}
-            <a class="next" href="{{ site.url }}{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
-        {% endif %}
-    </div>
-{% endif %}
-
-{% if site.related %}
-    {% include related.html %}
-{% endif %}
-
-{% if site.show-author %}
-    {% include author.html %}
-{% endif %}
-
-{% if site.disqus.categories contains page.category %}
-    {% include disqus.html %}
-{% endif %}
+{{ content }}
