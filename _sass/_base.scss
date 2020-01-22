@@ -1,7 +1,11 @@
-body {
-  font-family: "Poppins", sans-serif;
-}
+// body {
+//   font-family: "Poppins", sans-serif;
+// }
 
 .badge {
   font-weight: 500;
+}
+
+.navbar-light .navbar-toggler {
+  border: none !important;
 }
