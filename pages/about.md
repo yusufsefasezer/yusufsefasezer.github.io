@@ -5,10 +5,12 @@ permalink: /about/
 weight: 3
 ---
 
-# **About Me**
+<img src="/assets/images/yusuf-sezer.jpg" alt="Yusuf SEZER" title="Yusuf SEZER" class="rounded-circle img-fluid" style="height:250px" />
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I've always been passionate about coding, and I'm eager to apply my programming skills to new pursuits. I love to interact with my team setting sharing my skills and knowledge. Having been studied on several programming languages, I can easily learn a new programming language and develop innovative applications. 
+
+I am interested in web technologies, algorithms, artificial intelligence and embedded systems; constantly exploring new technologies.
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
