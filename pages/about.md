@@ -13,10 +13,10 @@ I've always been passionate about coding, and I'm eager to apply my programming 
 I am interested in web technologies, algorithms, artificial intelligence and embedded systems; constantly exploring new technologies.
 
 <div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+<!-- {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %} -->
+<!-- {% include about/skills.html title="Other Skills" source=site.data.other-skills %} -->
 </div>
 
 <div class="row">
-{% include about/timeline.html %}
+<!-- {% include about/timeline.html %} -->
 </div>
