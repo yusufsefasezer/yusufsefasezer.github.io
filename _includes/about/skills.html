@@ -1,11 +1,12 @@
-<div class="col-lg">
-  <h2 class="mb-3">{{ include.title }}</h2>
-    {% for skill in include.source %}
-      <div class="skill">
-        <p>{{ skill.name }}</p>
-        <div class="skill-bar skill-bar-{{ skill.color }} skill-{{ skill.percentage }} wow animated slideInLeft" data-wow-delay="{{ forloop.index | divided_by: 20.0 }}">
-          <span>{{ skill.percentage }}%</span>
+<div class="col mt-4">
+  <div class="timeline-body">
+    {% for skill in site.data.skills %}
+      <div class="timeline-item">
+        <div class="content">
+          <h2>{{ skill.title }}</h2>
+          <ul type="square">{% for item in skill.items%} <li>{{item}}</li> {% endfor %}</ul>
         </div>
       </div>
     {% endfor %}
+  </div>
 </div>

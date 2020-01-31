@@ -36,6 +36,11 @@
       margin: 40px;
       padding-bottom: 20px;
       border-bottom: 1px dashed $dark;
+      font-size: 18px;
+
+      ul {
+        columns: 250px 4;
+      }
 
       .date {
         margin-top: -5px;

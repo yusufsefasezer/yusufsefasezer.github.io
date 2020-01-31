@@ -39,12 +39,7 @@ author:
 # youtube           : your_channel_name
 
 
-### Pagination ###
-paginate: 6
-paginate_path: "/blog/page-:num/"
-
-
-### Posts Permalink ###
+### Posts ###
 permalink: :title
 
 
@@ -73,7 +68,6 @@ plugins:
   - jekyll-gist
   - jekyll-github-metadata
   - jekyll-include-cache
-  - jekyll-paginate
   - jemoji
 
 
