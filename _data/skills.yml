@@ -1,42 +1,143 @@
-- title: Web Programming
+- title: Java Technologies
   items: 
-          - C++11 / C
-          - .NET (C# / VB.NET / WPF / WCF / WinForms)
-          - Java (J2SE 1.0 - 1.8)
-          - Python
-          - Clojure
-          - Ruby
-          - Erlang
-          - Perl
-          - StreamBase (Stream Processing Engine / Complex Event Processing)
+          - Java
+          - Java SE
+          - Generics
+          - JDBC
+          - AWT
+          - Swing
+          - FXML
+          - JavaFX
+          - Java EE
+          - Servlet
+          - JSP
+          - JSTL
+          - JSF
+          - PrimeFaces
+          - EJB
+          - JPA
+          - Hibernate
+          - JAX-WS
+          - JAX-RS
+          - Spring Core
+          - Spring JDBC Template
+          - Spring MVC
+          - Spring Boot
 
-- title: Java
+- title: .NET Framework
+  items: 
+          - .NET
+          - VB.NET
+          - C#
+          - ADO.NET
+          - WinForms
+          - LINQ
+          - Entity Framework
+          - XAML
+          - WPF
+          - GDI+
+          - ASP.NET
+          - ASP.NET WebForms
+          - ASP.NET Web Pages
+          - ASP.NET MVC
+          - ASP.NET Web API
+          - .NET CORE
+          - ASP.NET Razor Pages
+          - ASP.NET SignalR
+          - .NET CORE MVC
+          - .NET CORE Web API
+          - Entity Framework Core
+
+- title: Other
+  items: 
+          - Object Oriented Programming
+          - Object Oriented Analysis and Design
+          - UML
+          - Design Pattern
+          - SOLID
+          - DRY
+          - KISS
+          - Web Services (SOA, SOAP, REST, GraphQL)
+          - Build Automation (Grunt, Gulp, Webpack, Make, CMake, MSBuild)
+          - Package Manager (NPM, Composer, NuGet, Maven)
+          - Version Control System (Git)
+          - Image Processing
+          - Socket Programming
+          - Parallel Programming
+
+- title: Programming Language
+  items: 
+          - C
+          - C++
+          - Modern C++ (11, 14, 17)
+          - Android
+          - SAP (ABAP, ABAP-OO, ALV)
+
+- title: Database
+  items: 
+        - SQL
+        - Database Design (1NF, 2NF, 3NF, 4NF, 5NF)
+        - SQLite
+        - MySQL
+        - SQL Server (T-SQL)
+        - Oracle (PL/SQL)
+        - Microsoft Access
+        - NoSQL           
+        - MongoDB
+
+- title: Back-end
+  items: 
+          - Node.js
+          - Express.js
+          - Socket.IO
+          - PHP (7, OOP)
+          - PHP Framework (CodeIgniter)
+
+- title: Front-end
   items: 
           - HTML5
           - CSS3
-          - JavaScript
-          - JavaScript
-          - JavaScript
-          - JavaScript
-          - JavaScript
-          - JavaScript
-          - JavaScript
-          - JavaScript
-          - JavaScript
-          - JavaScript
-          - JavaScript
-          - JavaScript
-          - JavaScript
-          - JavaScript
-          - JavaScript
-          - JavaScript
-          - JavaScript
-          - JavaScript
-          - JavaScript
-          - JavaScript
-          - JavaScript
-          - JavaScript
-          - JavaScript
-          - JavaScript
-          - JavaScript
-          - JavaScript
+          - Responsive Web Design
+          - CSS Preprocessor (SASS, LESS)
+          - CSS Framework (Bootstrap, Foundation, Bulma, Semantic UI)
+          - JavaScript (TypeScript, ES6, JSON, AJAX)
+          - WebSocket
+          - JavaScript Framework (jQuery, Backbone.js, React, AngularJS, Angular, Vue.js)
+
+- title: Operation System / System Management
+  items:
+        - Windows (XP, 7, 10, Server)
+        - Linux (RPM-based, Debian-based)
+        - Bash
+        - VMware
+        - Docker
+
+- title: Network
+  items:
+        - Network
+        - OSI
+        - TCP/UDP
+        - HTTP
+        - DHCP
+        - Wireless Network
+        - Network Security
+
+- title: Electronic
+  items:
+        - Logic Circuit
+        - Microcontroller (PIC)
+        - Embedded system
+        - Ardunio
+        - Raspberry PI
+        - Johnny Five
+
+- title: Artificial Intelligence
+  items:
+        - A*
+        - Genetic Algorithm
+        - Fuzzy Logic
+        - Artificial Neural Network (Feedforward, Backpropagation)
+        - Particle Swarm Optimization
+        - Ant Colony Optimization
+        - Artificial Bee Colony
+        - Data Mining (Weka)

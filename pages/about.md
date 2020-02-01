@@ -12,6 +12,8 @@ I've always been passionate about coding, and I'm eager to apply my programming 
 
 I am interested in web technologies, algorithms, artificial intelligence and embedded systems; constantly exploring new technologies.
 
+You can visit [projects]({{ site.baseurl }}{% link pages/projects.html %}) page for more...
+
 <div class="row">
 {% include about/skills.html %}
 </div>
