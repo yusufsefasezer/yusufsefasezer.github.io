@@ -19,6 +19,7 @@
           - Hibernate
           - JAX-WS
           - JAX-RS
+          - Java WebSocket
           - Spring Core
           - Spring JDBC Template
           - Spring MVC
