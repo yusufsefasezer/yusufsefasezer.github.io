@@ -64,6 +64,7 @@
           - Image Processing
           - Socket Programming
           - Parallel Programming
+          - SAP MII
 
 - title: Programming Language
   items: 
@@ -81,6 +82,7 @@
         - MySQL
         - SQL Server (T-SQL)
         - Oracle (PL/SQL)
+        - SAP HANA
         - Microsoft Access
         - NoSQL           
         - MongoDB
@@ -103,6 +105,7 @@
           - JavaScript (TypeScript, ES6, JSON, AJAX)
           - WebSocket
           - JavaScript Framework (jQuery, Backbone.js, React, AngularJS, Angular, Vue.js)
+          - SAP UI5
 
 - title: Operation System / System Management
   items:
