@@ -20,9 +20,11 @@
           - JAX-WS
           - JAX-RS
           - Java WebSocket
-          - Spring Core
-          - Spring JDBC Template
-          - Spring MVC
+          - JUnit
+          - Spring Framework
+          - Spring Web MVC
+          - Spring Security
+          - Spring Data
           - Spring Boot
 
 - title: .NET Framework
@@ -67,6 +69,8 @@
           - Parallel Programming
           - SAP MII
           - RPA (BluePrism, Microsoft UI Flows)
+          - Apache (Tomcat, Nifi, JMeter, httpd, ab)
+
 
 - title: Programming Language
   items: 
@@ -88,6 +92,7 @@
         - Microsoft Access
         - NoSQL           
         - MongoDB
+        - Redis
 
 - title: Back-end
   items: 
@@ -116,6 +121,9 @@
         - Bash
         - VMware
         - Docker
+        - Kubernetes
+        - Prometheus
+        - Grafana
 
 - title: Network
   items:
