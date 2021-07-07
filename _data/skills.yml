@@ -55,6 +55,7 @@
   items: 
           - Object Oriented Programming
           - Object Oriented Analysis and Design
+          - Aspect-oriented programming
           - UML
           - Design Pattern
           - SOLID
@@ -69,8 +70,8 @@
           - Parallel Programming
           - SAP MII
           - RPA (BluePrism, Microsoft UI Flows)
-          - Apache (Tomcat, Nifi, JMeter, httpd, ab)
-
+          - Apache (Tomcat, Nifi, JMeter, httpd, ApacheBench)
+          - ELK (Elasticsearch, Logstash, Kibana)
 
 - title: Programming Language
   items: 
@@ -93,6 +94,7 @@
         - NoSQL           
         - MongoDB
         - Redis
+        - Apache Cassandra
 
 - title: Back-end
   items: 
@@ -121,7 +123,7 @@
         - Bash
         - VMware
         - Docker
-        - Kubernetes
+        - Kubernetes(Helm, Service Mesh(Istio), )
         - Prometheus
         - Grafana
 
